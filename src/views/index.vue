@@ -6,20 +6,18 @@
 
 <script>
 import AmountBox from '@/components/AmountBox'
-import { constants } from 'fs';
 export default {
   name: '',
-  components:{
+  components: {
     AmountBox
   },
-  data(){
-    return{
+  data () {
+    return {
       money: null
     }
   },
-  methods:{
-    moneyChange(e){
-      console.log(e)
+  methods: {
+    moneyChange (e) {
       this.money = e
     }
   }

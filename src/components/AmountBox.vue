@@ -16,7 +16,7 @@ export default {
   props: ['value'],
   methods: {
     valueChange (val) {
-      let data = val.target.value.replace(/((?![0-9\.]).)/g, '')
+      let data = val.target.value.replace(/((?![0-9.]).)/g, '')
       if (data > 999999.99) {
         this.$emit('change', 999999.99)
       } else {
