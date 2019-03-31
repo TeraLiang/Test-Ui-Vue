@@ -39,7 +39,7 @@ export default {
 
 <style lang="less" scoped>
   .amountBox{
-    width: 100%;
+    width: 280px;
     height: 30px;
     line-height: 30px;
     padding: 0 15px;
