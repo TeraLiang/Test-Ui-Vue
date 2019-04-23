@@ -1,26 +1,12 @@
 <template>
   <div>
-    <AmountBox :value="money" @change="moneyChange"></AmountBox>
+    <!-- <el-header></el-header> -->
   </div>
 </template>
 
 <script>
-import AmountBox from '@/components/AmountBox'
 export default {
-  name: '',
-  components: {
-    AmountBox
-  },
-  data () {
-    return {
-      money: null
-    }
-  },
-  methods: {
-    moneyChange (e) {
-      this.money = e
-    }
-  }
+  name: ''
 }
 </script>
 
