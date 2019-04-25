@@ -3,6 +3,7 @@ import App from './App.vue'
 import router from './router/index'
 import store from './store/index'
 import Tera from '../packages/index'
+import './style/static.less'
 
 Vue.config.productionTip = false
 

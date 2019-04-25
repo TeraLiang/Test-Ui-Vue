@@ -1,7 +1,6 @@
 <template>
   <div>
-    <tera-header></tera-header>
-    <tera-amount-box></tera-amount-box>
+    <tera-header class="header">Tera-UI</tera-header>
   </div>
 </template>
 
@@ -12,5 +11,7 @@ export default {
 </script>
 
 <style lang="less" scoped>
-
+  .header{
+    border-bottom: 1px solid #f0f0f0;
+  }
 </style>
