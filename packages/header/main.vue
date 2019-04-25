@@ -7,8 +7,7 @@
 
 <script>
 export default {
-  name: 'ElHeader',
-  componentName: 'ElHeader',
+  name: 'TeraHeader',
   props: {
     height: {
       type: String,

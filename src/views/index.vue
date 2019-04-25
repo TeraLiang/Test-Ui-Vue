@@ -1,6 +1,7 @@
 <template>
   <div>
-    <!-- <el-header></el-header> -->
+    <tera-header></tera-header>
+    <tera-amount-box></tera-amount-box>
   </div>
 </template>
 
