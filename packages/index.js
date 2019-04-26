@@ -1,9 +1,11 @@
 import Header from './header/index'
 import AmountBox from './amount-box/index'
+import Tree from './tree/index'
 
 const components = [
   Header,
-  AmountBox
+  AmountBox,
+  Tree
 ]
 
 export default {

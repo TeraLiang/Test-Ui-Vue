@@ -1,12 +1,24 @@
 <template>
   <div>
     <tera-header class="header">Tera-UI</tera-header>
+    <tera-tree :data="data" @onNodeClick="handleNodeClick"></tera-tree>
   </div>
 </template>
 
 <script>
+import menu from '@/data/menu'
 export default {
-  name: ''
+  name: '',
+  data () {
+    return {
+      data: menu.docList
+    }
+  },
+  methods: {
+    handleNodeClick (e) {
+      console.log(e.name)
+    }
+  }
 }
 </script>
 
